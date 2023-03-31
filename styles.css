@@ -1,0 +1,149 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* .rules {
+  position: absolute;
+  max-width: 20%;
+  height: auto;
+  color: #FEF2BF;
+  text-align: left;
+  margin-left: 20px;
+  padding: 8px;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 15px;
+  display: flexbox;
+  background-color: #1d5791;
+  box-shadow: 0px 2px 8px 2px white;
+}
+ */
+/* 
+.wrapper {
+  overflow: auto;
+
+}
+
+.left-side {
+  float: none;
+  width: auto;
+}
+
+.left-side {
+  color: #FEF2BF;
+  text-align: left;
+  padding: 8px;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 15px;
+  background-color: #1d5791;
+  box-shadow: 0px 2px 8px 2px white;
+}
+
+.rules>p {
+  font-size: 12px;
+  line-height: 1.5rem;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.container {
+  float: left;
+  width: 50%;
+  margin-left: 4px;
+}
+
+*/
+
+
+.wrapper-dir {
+  padding: 5px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.dir-columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 15px;
+}
+
+.dir-columns .dir-column {
+  flex: 1;
+  border: 2px solid red;
+}
+
+.dir-columns .dir-column {
+  flex-basis: 40%;
+}
+
+.dir-column .left-side {
+  color: #FEF2BF;
+  text-align: left;
+  padding: 8px;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 15px;
+  background-color: #1d5791;
+  box-shadow: 0px 2px 8px 2px white;
+}
+
+
+@media(max-width:820px) {
+  .dir-columns .dir-column {
+    flex-basis: 100%;
+  }
+
+  .btn {
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+}
